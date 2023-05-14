@@ -1,0 +1,21 @@
+{
+  "name": "Test falconic app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "falconic": "^1.0.0",
+    "nedb": "^1.8.0",
+    "pg": "^6.4.2",
+    "pug": "^2.0.3",
+    "ws": "^5.2.2"
+  }
+}

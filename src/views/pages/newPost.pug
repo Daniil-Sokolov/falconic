@@ -1,0 +1,14 @@
+extends ../layouts/page.pug
+block content
+	h1 New post
+	form(method='POST' action='/post/add')
+		input(name='title' placeholder='title')
+		br
+		br
+		input(name='description' placeholder='description')
+		br
+		br
+		textarea(name='body' id='' cols='50' rows='10')
+		br
+		br
+		input(type='submit' value='Add')

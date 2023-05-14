@@ -1,0 +1,7 @@
+extends ../layouts/page.pug
+block content
+	h1 Posts list
+	ol
+		each post in posts
+			li
+				a(href='/post/id/'+ post._id) #{post.title} | #{post.description}

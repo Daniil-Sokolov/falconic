@@ -1,0 +1,7 @@
+extends ../layouts/page.pug
+block content
+	h1 Users list
+	ol
+		each user in users
+			li
+				a(href='/user/id/'+ user._id) #{user.name} | #{user.age}
